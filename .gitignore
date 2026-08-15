@@ -1,0 +1,24 @@
+# Dataset
+data/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+
+# VS Code
+.vscode/
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Airflow
+airflow/logs/
