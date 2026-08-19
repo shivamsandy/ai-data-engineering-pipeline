@@ -52,8 +52,7 @@ Python · Pandas · Amazon S3 · Snowflake · dbt (dbt-snowflake) · Apache Airf
 ├── aws/iam/                  # IAM policy + role trust policies for the S3 ↔ Snowflake handshake
 └── docs/architecture.png     # architecture diagram
 ```
-
-> `data/` (~2.3 GB of CSVs), logs, and dbt `target/` artifacts are intentionally not committed — get the dataset and slides from the [Google Drive folder](https://drive.google.com/drive/folders/1FEnGWMHhHzzTUCZOw1-YnH2v3DMuM-rs?usp=sharing).
+ 
 
 ## How the pipeline works
 
