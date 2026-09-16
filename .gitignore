@@ -1,26 +1,45 @@
-# Dataset
-data/
+# Environment / secrets
+.env
+*.env
+!example.env
+!.env.example
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
 
 # Virtual environments
-.venv/
+dbt_venv/
 venv/
+.venv/
+python/
 
-# Environment variables / secrets
-.env
+# Airflow generated files
+airflow/logs/
+logs/
+airflow/airflow.db
+airflow/*.db
 
-# VS Code
-.vscode/
-
-# dbt
+# dbt generated files
 target/
 dbt_packages/
 logs/
 
-# Airflow
-airflow/logs/
+# AI generated/cache files
+review_embeddings.parquet
+*.parquet
 
-.hh/
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+
+# Raw dataset - stored in AWS S3
+data/
